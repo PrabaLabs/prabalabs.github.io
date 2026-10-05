@@ -1,0 +1,27 @@
+{
+  "kDUqqgwV8og": {
+    "title": "Gesture-controlled web swinging",
+    "text": "A hand gesture fires a web that curves, sticks, tightens like a rope and swings the player. Gesture detection from finger joint angles, with a live spline and spring physics.",
+    "tags": "Unity 6 · MediaPipe · Splines · C#"
+  },
+  "O32648ku240": {
+    "title": "Real-time avatar from body tracking",
+    "text": "A 3D avatar copies the user's body movement in real time, driven by pose landmarks from an ordinary webcam.",
+    "tags": "Unity · MediaPipe Pose · Avatar rigging"
+  },
+  "1k80P0d8_AE": {
+    "title": "Two-hand landmark tracking",
+    "text": "Reading the X, Y and Z position of every hand landmark for both hands, the base layer for any gesture or touch-free input.",
+    "tags": "Unity · MediaPipe Hands · C#"
+  },
+  "bKDOwgNg_IM": {
+    "title": "VR project setup for Meta Quest",
+    "text": "A Unity project configured from a blank template to a Quest-ready VR build.",
+    "tags": "Unity 6 · Meta Quest · OpenXR"
+  },
+  "d-rfKLeznsc": {
+    "title": "MediaPipe integration in Unity",
+    "text": "Importing and configuring the MediaPipe plugin so a Unity project can run hand, pose and face tracking.",
+    "tags": "Unity · MediaPipe Unity Plugin"
+  }
+}
