@@ -1,6 +1,14 @@
 // Written by tools/update_videos.py. Do not edit by hand.
 window.PRABALABS_VIDEOS = [
   {
+    "id": "I9J91gOWGAU",
+    "published": "2026-10-07T05:30:23+00:00",
+    "youtubeTitle": "How to Set Up Unity MCP with Claude Code on Windows",
+    "title": "How to Set Up Unity MCP with Claude Code on Windows",
+    "text": "How to set up Unity MCP with Claude Code on Windows, step by step. In this beginner tutorial you install the free MCP for Unity package, connect Claude Code in VS Code to the Unity Editor, and let Claude build inside…",
+    "tags": ""
+  },
+  {
     "id": "kDUqqgwV8og",
     "published": "2026-10-03T18:44:51+00:00",
     "youtubeTitle": "Swing Like Spider-Man with Hand Tracking | Unity + MediaPipe Tutorial",
