@@ -513,24 +513,6 @@ h3 { font-size: 1.15rem; }
 
 .founder .contact-links a { color: var(--red); }
 
-.timeline-grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 56px; margin-top: 56px; padding-top: 44px; border-top: 1px solid var(--rule); }
-
-.sub { font-family: var(--serif); font-size: 1.3rem; }
-
-.timeline { margin: 18px 0 0; padding: 0; list-style: none; }
-
-.timeline li { position: relative; padding: 0 0 22px 24px; border-left: 2px solid var(--rule); }
-
-.timeline li::before { content: ""; position: absolute; left: -6px; top: 8px; width: 10px; height: 10px; border-radius: 50%; background: var(--gold); }
-
-.timeline li:last-child { padding-bottom: 0; }
-
-.timeline .when { display: block; color: var(--red); font-size: 0.82rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; }
-
-.timeline strong { display: block; margin-top: 2px; }
-
-.timeline span:last-child { display: block; color: var(--muted); font-size: 0.95rem; }
-
 .values { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; margin-top: 44px; }
 
 .values h3 { font-family: var(--serif); }
@@ -573,7 +555,7 @@ h3 { font-size: 1.15rem; }
 
 @media (max-width: 900px) {
   .hero { padding: 48px 0 56px; }
-  .hero-grid, .doors, .case, .form-grid, .founder, .timeline-grid { grid-template-columns: 1fr; gap: 36px; }
+  .hero-grid, .doors, .case, .form-grid, .founder { grid-template-columns: 1fr; gap: 36px; }
   .cards, .how, .packages, .values { grid-template-columns: repeat(2, 1fr); }
   .calendar { grid-template-columns: repeat(2, 1fr); }
   .where { grid-template-columns: repeat(3, 1fr); }
