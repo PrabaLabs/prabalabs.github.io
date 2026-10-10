@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Cartoon portrait of PrabaGaran, founder of PrabaLabs">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3e3bd"/>
+      <stop offset="1" stop-color="#e9cf93"/>
+    </linearGradient>
+    <linearGradient id="visor" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b8162a"/>
+      <stop offset="1" stop-color="#6e0812"/>
+    </linearGradient>
+    <clipPath id="round"><rect width="400" height="400" rx="40"/></clipPath>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect width="400" height="400" fill="url(#bg)"/>
+    <!-- decorative circuit dots -->
+    <g fill="#c8951d" opacity="0.55">
+      <circle cx="330" cy="70" r="5"/><circle cx="352" cy="92" r="4"/><circle cx="372" cy="60" r="3.5"/>
+      <circle cx="48" cy="330" r="5"/><circle cx="70" cy="352" r="4"/><circle cx="30" cy="356" r="3.5"/>
+    </g>
+    <g stroke="#c8951d" stroke-width="2" opacity="0.55" fill="none">
+      <path d="M330 70 L352 92 M352 92 L372 60"/>
+      <path d="M48 330 L70 352 M48 330 L30 356"/>
+    </g>
+    <!-- shoulders -->
+    <path d="M60 400 C60 320 120 290 200 290 C280 290 340 320 340 400 Z" fill="#7a0a15"/>
+    <path d="M150 300 L200 330 L250 300 L250 400 L150 400 Z" fill="#a50f22"/>
+    <!-- collar -->
+    <path d="M165 292 L200 332 L235 292 L222 288 L200 310 L178 288 Z" fill="#f6f0e8"/>
+    <!-- neck -->
+    <rect x="172" y="238" width="56" height="60" rx="20" fill="#c98b5b"/>
+    <!-- head -->
+    <ellipse cx="200" cy="190" rx="78" ry="90" fill="#d79a68"/>
+    <!-- ears -->
+    <ellipse cx="124" cy="196" rx="12" ry="18" fill="#c98b5b"/>
+    <ellipse cx="276" cy="196" rx="12" ry="18" fill="#c98b5b"/>
+    <!-- hair -->
+    <path d="M122 170 C118 110 150 82 200 80 C252 78 286 108 280 170 C266 140 242 126 200 126 C158 126 134 140 122 170 Z" fill="#2b1a14"/>
+    <path d="M150 104 C170 86 230 84 256 104 C240 96 212 92 200 94 C182 94 164 98 150 104 Z" fill="#3b2620"/>
+    <!-- VR headset pushed up on forehead -->
+    <g transform="translate(0,-6)">
+      <rect x="128" y="118" width="144" height="52" rx="22" fill="url(#visor)"/>
+      <rect x="140" y="128" width="120" height="30" rx="14" fill="#fff" opacity="0.14"/>
+      <path d="M128 144 L112 150 M272 144 L288 150" stroke="#6e0812" stroke-width="10" stroke-linecap="round"/>
+      <text x="200" y="152" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="700" fill="#fff">P</text>
+    </g>
+    <!-- eyebrows -->
+    <path d="M152 188 C166 180 184 182 194 188" stroke="#2b1a14" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <path d="M206 188 C216 182 234 180 248 188" stroke="#2b1a14" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <!-- eyes -->
+    <ellipse cx="172" cy="206" rx="11" ry="12" fill="#fff"/>
+    <ellipse cx="228" cy="206" rx="11" ry="12" fill="#fff"/>
+    <circle cx="174" cy="208" r="6" fill="#2b1a14"/>
+    <circle cx="230" cy="208" r="6" fill="#2b1a14"/>
+    <circle cx="176" cy="205" r="2" fill="#fff"/>
+    <circle cx="232" cy="205" r="2" fill="#fff"/>
+    <!-- nose -->
+    <path d="M200 212 C196 226 194 234 204 236" stroke="#b97a4e" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <!-- smile -->
+    <path d="M172 250 C186 266 214 266 228 250" stroke="#7a3b2a" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <path d="M180 253 C190 260 210 260 220 253 Z" fill="#fff"/>
+    <!-- cheeks -->
+    <circle cx="152" cy="236" r="9" fill="#e8946f" opacity="0.5"/>
+    <circle cx="248" cy="236" r="9" fill="#e8946f" opacity="0.5"/>
+    <!-- raised hand with pinch gesture -->
+    <g transform="translate(300,250) rotate(-10)">
+      <path d="M0 110 C-6 70 -4 40 4 20 C10 6 24 6 26 22 L28 60" fill="#d79a68"/>
+      <path d="M28 60 C30 40 36 30 46 32 C54 34 54 44 50 64" fill="#d79a68"/>
+      <path d="M50 64 C56 48 66 48 70 56 C74 64 68 78 60 90" fill="#d79a68"/>
+      <path d="M-2 110 C-10 100 -12 80 -8 64 C-18 60 -26 52 -20 40 C-16 32 -4 34 4 44" fill="#d79a68"/>
+      <ellipse cx="32" cy="100" rx="38" ry="28" fill="#d79a68"/>
+      <circle cx="26" cy="18" r="6" fill="#ffd966"/>
+      <path d="M26 2 C22 8 22 14 26 18 C30 14 30 8 26 2 Z" fill="#ff9f1c"/>
+    </g>
+  </g>
+</svg>

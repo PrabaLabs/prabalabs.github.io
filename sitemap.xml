@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://prabalabs.github.io/</loc><priority>1.0</priority></url>
+  <url><loc>https://prabalabs.github.io/festivals.html</loc><priority>1.0</priority></url>
+  <url><loc>https://prabalabs.github.io/services.html</loc><priority>0.8</priority></url>
+  <url><loc>https://prabalabs.github.io/work.html</loc><priority>0.8</priority></url>
+  <url><loc>https://prabalabs.github.io/about.html</loc><priority>0.6</priority></url>
+  <url><loc>https://prabalabs.github.io/contact.html</loc><priority>0.6</priority></url>
+</urlset>
